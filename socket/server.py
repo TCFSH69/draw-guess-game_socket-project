@@ -9,7 +9,7 @@ message_objs = []
 uid_username = {}
 scoreboard = {}
 uids = []
-topics = list(map(lambda x: x.strip(), open(r"./wordbank.txt", "r").readlines()))
+topics = list(map(lambda x: x.strip(), open(r"./wordlist.txt", "r").readlines()))
 
 '''
 server to client
